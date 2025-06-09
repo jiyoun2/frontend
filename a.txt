@@ -29,6 +29,7 @@ git branch / 브랜치 상태
 git branch 브랜치이름 / 브랜치 추가
 
 git checkout 브랜치이름 / 해당 브랜치로 스위치
+ㄴ git checkout -b 브랜치이름 / 해당 브랜치를 새로 만들면서 바로 스위치
 
 git merge 브랜치이름 / 브랜치 합치기
 
@@ -39,4 +40,10 @@ PR : Pull Request
 git push / github 업로드?
 
 git pull / github 다운로드?
+
+* 6/9 
+git add . 
+git commit -m "여행 페이지 공부"
+git push
+
 
