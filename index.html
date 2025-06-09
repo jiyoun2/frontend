@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1>제일 중요한 제목</h1>
+        <p>이것은 문서의 본문입니다. 여기에 내용을 작성하세요.</p>
+        <div>
+            <span>this is span</span>
+            <b>this is b</b>
+            <em>this is em</em>
+        </div>
+        <div>
+            나 줄바꿈 하고싶어
+            <br>
+            근데 왜 안되지?
+        </div>
+        <ul>
+            <li>1st list</li>
+            <li>2nd list</li>
+            <li>3rd list</li>
+        </ul>
+        <ol type="A" start="3">
+            <li>1st list</li>
+            <li>2nd list</li>
+            <li>3rd list</li>
+        </ol>
+    </div>
+    <div>
+        <a href="https://www.naver.com">naver</a>
+        <a href="https://www.naver.com" target="_blank">다른 탭으로 네이버 이동</a>
+    </div>
+    <img src="./common.jpeg" alt="from naver">
+    <img
+        src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNDA2MDNfMjQ1%2FMDAxNzE3Mzc2OTE0MDc5.rESmo0cRLLkVteyoZZKgJjhVnhmEZjNMUGSPT9zWkXUg.cWxwRM6y9QzDNFfmqVHTZtfEOoz5Suf0b_7JNHOn_2gg.JPEG%2FIMG_3613.JPG&type=a340" />
+    />
+    <table>
+        <thead>
+            <tr>
+                <th>name</th>
+                <th>age</th>
+                <th>job</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>홍길동</td>
+                <td>30</td>
+                <td>frontend</td>
+            </tr>
+            <tr>
+                <td>김철수</td>
+                <td>25</td>
+                <td>backend</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+    <form action="/api/url" method="post">
+        <label for="name">name</label>
+        <input type="text" id="name" name="name" />
+
+        <label for="password">password</label>
+        <input type="password" id="password" name="password" />
+
+        <label for="job">option</label>
+        <select name="job" id="job">
+            <option value="frontend">frontend</option>
+            <option value="backend">backend</option>
+        </select>
+
+        <label for="note">note</label>
+        <textarea name="note" id="note" rows="4" cols="50"></textarea>
+
+        <button type="submit">submit</botton>
+        <button type="reset">reset</button>
+        <button type="button">nothing</button>
+    </form>
+</html>

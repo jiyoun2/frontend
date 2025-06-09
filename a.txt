@@ -1,0 +1,42 @@
+git init // 최초 깃을 사용하기 위한 명령어
+
+git add a.txt / 스테이징 아레아에 올리기 위한 명령어
+
+git add . / 변경된 모든 파일들이 전부 스테이징 아레아에 올라감
+
+git restore --staged 파일명 / 스테이징 아레아에 올라가 있는 파일을 빼는 명령어
+
+git restore --source 커밋아이디 파일명 / 특정 시점으로 파일을 복구
+
+git revert 커밋아이디 / 특정 커밋을 취소
+
+git reset 커밋아이디 / 과거로 되돌림. 협업시 거의 안씀. 과거시점으로 돌아가기
+
+git commit -m "첫번째 커밋" / 커밋을 만드는 명령어
+
+여기서 더 작업함
+
+git status / 깃 상태
+
+git log --all --oneline / 커밋 기록 확인
+
+git diff 커밋ID / 현재 코드와 마지막 커밋간의 차이점 확인
+
+git difftool 커밋ID / diff보다 보기 편하게
+
+git branch / 브랜치 상태
+
+git branch 브랜치이름 / 브랜치 추가
+
+git checkout 브랜치이름 / 해당 브랜치로 스위치
+
+git merge 브랜치이름 / 브랜치 합치기
+
+git branch -d 브랜치이름 / 해당 브랜치 지우기
+
+PR : Pull Request
+
+git push / github 업로드?
+
+git pull / github 다운로드?
+
