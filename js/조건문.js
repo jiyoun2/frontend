@@ -15,10 +15,10 @@ if (a === b) { // 조건
 }
 
 
-// 삼항 연산자 참이면 앞에거, 거짓이면 뒤에거가 출력되나봄
+// 삼항 연산자 참이면 앞에거, 거짓이면 뒤에거가 출력됨
 const result = a === b ? 'a와 b는 같습니다' : 'a와 b는 다릅니다';
 
-// switch 문
+// switch 문. a와 case를 비교. 참이면 출력(break), 거짓이면 다음 case. 
 switch (a) {
     case b:
         console.log('a는 b와 같습니다');
