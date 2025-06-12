@@ -1,0 +1,19 @@
+/* #id */
+#parent{
+    padding: 50px;
+    background-color: aquamarine;
+    width: 300px;
+    font-size: 32px;
+}
+
+#child{
+    margin-top: 30px;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+}
+
+#child:hover {
+    opacity: 0.8;
+}

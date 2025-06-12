@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center; 
+    min-height: 500px;
+    background-color: lightgray;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+/* justify가 가로 align이 세로 정렬? */
+button{
+    padding: 20px;
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.box{
+    background-color: beige;
+    padding: 10px;
+    border-radius: 5px;
+}
