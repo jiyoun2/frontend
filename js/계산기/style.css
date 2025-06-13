@@ -1,0 +1,57 @@
+body {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 80vh; 
+}
+/* vh는 보이는 화면비율에서 해당 %만 차지함 */
+/* justify-content 가로 align-items 세로 */
+.calculator {
+    width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#display {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 15px;
+}
+/* 부모영역의 padding값을 빼고 100% 차지한 상황 */
+/* text-align에서 left/start는 왼쪽 right/end는 오른쪽에서 입력 */
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+/* gap은 원래 가로간격이 늘어나는데, flex-direction으로 가로,세로축이 바뀌어서 세로간격이 늘어났음 */
+.buttons-row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+}
+.buttons-row button{
+    flex: 1;
+    padding: 16px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.buttons-row button:hover {
+    opacity: 0.5;
+    background-color: azure;
+}
